@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Calendar Events</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="user-info">
+                <img src="{{ user.picture }}" alt="Profile Picture" class="profile-pic">
+                <span>{{ user.name }}</span>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            </div>
+        </div>
+        <h2>Your Google Calendar Events</h2>
+        <form action="{{ url_for('schedule_tasks') }}" method="post">
+            <ul>
+                {% for event in events %}
+                    <li>
+                        <input type="checkbox" name="selected_events" value="{{ event.id }}">
+                        <strong>{{ event.summary }}</strong> - 
+                        {{ event.start.dateTime if event.start.dateTime else event.start.date }} to 
+                        {{ event.end.dateTime if event.end.dateTime else event.end.date }}
+                    </li>
+                {% endfor %}
+            </ul>
+            <button type="submit">Generate Optimized Schedule</button>
+        </form>
+    </div>
+</body>
+</html>

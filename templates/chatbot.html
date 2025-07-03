@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task Scheduler ChatBot</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f4f9ff;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .chat-box {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 30px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+        overflow-y: auto;
+        max-height: 70vh;
+      }
+
+      .chat-message {
+        display: flex;
+        margin: 12px 0;
+      }
+
+      .user-msg {
+        margin-left: auto;
+        background-color: #d0e6ff;
+        padding: 12px 18px;
+        border-radius: 18px 18px 0 18px;
+        max-width: 60%;
+        text-align: right;
+        word-wrap: break-word;
+      }
+
+      .bot-msg {
+        margin-right: auto;
+        background-color: #eef3ff;
+        padding: 12px 18px;
+        border-radius: 18px 18px 18px 0;
+        max-width: 60%;
+        text-align: left;
+        word-wrap: break-word;
+      }
+
+      .chat-input {
+        width: 95%;
+        max-width: 1200px;
+        margin: 20px auto 0;
+        display: flex;
+        gap: 10px;
+        align-items: flex-end;
+      }
+
+      .chat-input textarea {
+        flex: 1;
+        padding: 14px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        line-height: 1.5;
+        min-height: 48px;
+        max-height: 200px;
+        resize: none;
+        overflow: hidden;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .chat-input button {
+        background-color: #4c8cff;
+        color: white;
+        border: none;
+        padding: 14px 24px;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        height: fit-content;
+      }
+
+      .chat-input button:hover {
+        background-color: #3a6fd6;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      th {
+        background-color: #dbe9ff;
+        padding: 10px;
+        text-align: left;
+        font-weight: 600;
+      }
+
+      td {
+        padding: 10px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #eee;
+      }
+
+      .download-btns {
+        width: 95%;
+        max-width: 1200px;
+        margin: 20px auto;
+        text-align: center;
+      }
+
+      .download-btns button {
+        background-color: #4c8cff;
+        color: white;
+        border: none;
+        padding: 10px 18px;
+        border-radius: 8px;
+        margin: 0 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .download-btns button:hover {
+        background-color: #3a6fd6;
+      }
+
+      @media (max-width: 768px) {
+        .chat-box,
+        .chat-input,
+        .download-btns {
+          width: 100%;
+          padding: 10px;
+        }
+
+        .user-msg,
+        .bot-msg {
+          max-width: 85%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Welcome, {{ user.name if user else 'Guest' }}</h2>
+    <h2>Task Scheduler ChatBot</h2>
+
+    <div class="chat-box" id="chat-box">
+      <!-- Messages dynamically appear here -->
+    </div>
+
+    <div class="chat-input">
+      <textarea
+        id="user-input"
+        placeholder="Enter your tasks with deadlines..."
+        rows="1"
+        oninput="autoResize(this)"
+      ></textarea>
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <div class="download-btns" id="download-buttons" style="display: none">
+      <button onclick="printSchedule()">🖨️ Print</button>
+      <button onclick="downloadSchedule()">⬇️ Download</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,501 @@
+task,duration
+write report,5.8
+perform code review,2.1
+host team meeting,1.0
+analyze results,3.5
+design poster,2.8
+make presentation,4.1
+code final project,8.3
+perform code review,2.5
+code final project,8.2
+write executive summary,1.6
+update resume,1.7
+revise for test,1.7
+host team meeting,1.0
+write blog post,3.0
+plan project roadmap,2.8
+train ML model,5.5
+prepare for exam,4.0
+analyze results,5.1
+write blog post,2.9
+prepare seminar,3.7
+plan project roadmap,3.1
+optimize code,3.7
+update resume,1.9
+write executive summary,1.5
+study data structures,4.4
+build prototype,10.2
+edit thesis,8.2
+clean dataset,2.5
+update resume,1.4
+write report,7.1
+optimize code,3.4
+brainstorm ideas,2.7
+project documentation,4.2
+practice interview,3.5
+test application,2.9
+prepare viva questions,2.6
+build prototype,10.0
+complete thesis,12.1
+design poster,2.9
+write executive summary,2.8
+attend workshop,3.4
+train ML model,6.5
+revise for test,2.7
+project documentation,5.4
+build prototype,10.3
+host team meeting,2.1
+revise for test,2.1
+write report,6.7
+complete thesis,11.6
+study data structures,3.1
+optimize code,5.2
+perform code review,2.5
+code final project,7.8
+make presentation,5.1
+clean dataset,2.6
+debug code,2.4
+compile bibliography,2.8
+update resume,2.5
+write blog post,1.6
+train ML model,4.2
+optimize code,4.9
+complete thesis,12.7
+conduct survey,3.4
+revise for test,1.5
+attend workshop,2.6
+analyze results,4.9
+brainstorm ideas,2.5
+code final project,7.1
+read research paper,4.1
+write unit tests,1.2
+review notes,1.3
+project documentation,4.4
+make presentation,5.4
+write report,5.7
+perform code review,2.1
+work on literature review,7.1
+complete thesis,11.8
+prepare for exam,3.8
+review notes,1.0
+make presentation,5.0
+project documentation,4.8
+study data structures,4.7
+make presentation,4.6
+clean dataset,2.3
+prepare seminar,4.5
+create wireframes,2.6
+edit thesis,7.8
+study data structures,4.3
+study data structures,5.2
+edit thesis,7.2
+plan project roadmap,3.1
+edit thesis,6.9
+create wireframes,2.5
+create infographic,3.5
+attend workshop,2.8
+prepare for exam,4.3
+brainstorm ideas,1.0
+write unit tests,2.2
+create infographic,3.8
+write blog post,2.5
+brainstorm ideas,1.0
+edit thesis,7.5
+write report,5.9
+brainstorm ideas,2.6
+write blog post,3.1
+design poster,2.0
+record demo video,1.6
+optimize code,4.7
+host team meeting,1.0
+write blog post,2.9
+record presentation,1.9
+compile bibliography,2.0
+write executive summary,3.2
+create wireframes,3.2
+revise for test,1.3
+create infographic,3.6
+work on literature review,5.3
+prepare for exam,2.9
+project documentation,5.3
+write blog post,2.6
+test application,3.7
+prepare for exam,3.1
+clean dataset,2.7
+project documentation,6.3
+review notes,2.5
+attend workshop,4.0
+brainstorm ideas,2.7
+study data structures,4.7
+write executive summary,1.7
+write blog post,2.7
+optimize code,3.5
+record presentation,2.0
+project documentation,5.8
+review notes,2.1
+test application,2.1
+attend workshop,4.2
+create infographic,2.8
+conduct survey,3.0
+test application,4.3
+design poster,3.1
+read research paper,3.0
+create infographic,1.8
+complete thesis,13.4
+plan project roadmap,3.8
+design poster,1.9
+make presentation,3.2
+study data structures,4.1
+record presentation,2.2
+clean dataset,2.8
+plan project roadmap,4.2
+update resume,2.0
+test application,2.9
+make presentation,4.0
+code final project,7.5
+work on literature review,5.0
+train ML model,5.0
+code final project,8.0
+conduct survey,3.7
+train ML model,4.3
+brainstorm ideas,2.6
+brainstorm ideas,2.9
+write executive summary,2.8
+conduct survey,3.2
+prepare seminar,5.4
+design poster,2.7
+write report,7.4
+perform code review,2.6
+train ML model,5.9
+brainstorm ideas,2.1
+prepare seminar,3.5
+code final project,8.5
+edit thesis,6.6
+optimize code,5.0
+debug code,1.7
+brainstorm ideas,2.8
+create infographic,3.5
+update resume,1.6
+clean dataset,1.2
+read research paper,3.2
+analyze results,4.6
+debug code,3.2
+conduct survey,3.8
+review notes,2.6
+perform code review,1.7
+train ML model,5.7
+study data structures,3.8
+complete thesis,12.5
+write unit tests,1.3
+project documentation,5.8
+write unit tests,2.2
+clean dataset,3.3
+clean dataset,3.3
+record presentation,2.4
+record demo video,1.9
+update resume,1.0
+design poster,1.7
+conduct survey,3.4
+practice interview,4.4
+practice interview,3.4
+test application,2.7
+perform code review,3.1
+build prototype,8.3
+debug code,3.4
+design poster,2.0
+review notes,2.3
+host team meeting,1.0
+build prototype,8.7
+write unit tests,3.5
+prepare for exam,3.1
+prepare for exam,2.6
+test application,2.4
+create infographic,2.9
+read research paper,3.6
+plan project roadmap,4.3
+prepare seminar,4.3
+build prototype,8.0
+revise for test,2.2
+create wireframes,2.0
+plan project roadmap,2.5
+project documentation,5.5
+draft research proposal,4.5
+create wireframes,3.0
+host team meeting,1.6
+work on literature review,6.0
+debug code,3.0
+write unit tests,1.0
+conduct survey,2.2
+train ML model,4.9
+make presentation,4.0
+study data structures,4.3
+make presentation,4.2
+study data structures,4.7
+create wireframes,1.7
+debug code,3.1
+train ML model,4.0
+write blog post,2.2
+debug code,2.2
+draft research proposal,4.7
+review notes,2.4
+perform code review,1.9
+read research paper,4.2
+edit thesis,7.4
+practice interview,2.9
+compile bibliography,2.4
+edit thesis,6.9
+project documentation,4.5
+debug code,2.9
+project documentation,4.4
+set up environment,1.0
+clean dataset,3.4
+study data structures,5.0
+revise for test,1.8
+draft research proposal,4.3
+edit thesis,7.3
+compile bibliography,3.3
+write report,5.9
+write executive summary,2.2
+write executive summary,2.6
+analyze results,4.5
+make presentation,5.3
+create infographic,1.8
+record presentation,1.9
+read research paper,2.0
+write blog post,2.7
+write executive summary,1.9
+practice interview,2.2
+revise for test,2.8
+test application,2.3
+record presentation,1.0
+draft research proposal,5.9
+create infographic,2.4
+write blog post,2.8
+project documentation,4.8
+review notes,1.5
+test application,2.5
+plan project roadmap,2.8
+write executive summary,1.4
+perform code review,3.4
+prepare for exam,2.8
+compile bibliography,3.2
+review notes,1.5
+set up environment,1.0
+clean dataset,2.9
+draft research proposal,6.2
+plan project roadmap,4.2
+brainstorm ideas,1.2
+prepare for exam,2.1
+write executive summary,2.3
+plan project roadmap,2.4
+edit thesis,8.0
+read research paper,3.5
+create wireframes,2.3
+make presentation,4.6
+prepare for exam,2.7
+prepare seminar,4.7
+write unit tests,3.3
+set up environment,1.3
+work on literature review,5.5
+record demo video,1.0
+study data structures,4.2
+perform code review,1.8
+brainstorm ideas,2.9
+update resume,1.2
+attend workshop,2.5
+test application,2.7
+write executive summary,1.6
+design poster,3.4
+record demo video,1.8
+design poster,3.0
+edit thesis,7.9
+clean dataset,1.5
+draft research proposal,4.9
+clean dataset,1.9
+create infographic,1.5
+work on literature review,5.4
+plan project roadmap,3.6
+write report,7.2
+compile bibliography,2.1
+design poster,2.3
+work on literature review,7.4
+conduct survey,2.1
+plan project roadmap,2.9
+analyze results,5.3
+practice interview,3.3
+plan project roadmap,2.9
+edit thesis,8.4
+study data structures,3.4
+plan project roadmap,2.4
+set up environment,1.8
+prepare for exam,4.3
+perform code review,3.0
+write blog post,2.6
+conduct survey,2.2
+compile bibliography,3.4
+write report,6.3
+complete thesis,13.2
+project documentation,6.1
+code final project,8.9
+update resume,2.5
+work on literature review,5.8
+write unit tests,1.4
+create wireframes,1.6
+revise for test,3.0
+optimize code,3.1
+conduct survey,3.2
+compile bibliography,2.6
+set up environment,2.1
+create infographic,3.4
+draft research proposal,4.6
+train ML model,5.7
+host team meeting,2.3
+read research paper,2.5
+set up environment,1.2
+draft research proposal,6.4
+code final project,7.7
+test application,2.3
+record presentation,1.7
+attend workshop,3.1
+edit thesis,6.3
+complete thesis,11.9
+revise for test,2.7
+design poster,2.3
+plan project roadmap,3.9
+conduct survey,3.7
+write report,6.7
+prepare viva questions,2.3
+study data structures,5.1
+complete thesis,13.3
+prepare viva questions,2.1
+write report,6.2
+read research paper,2.1
+edit thesis,7.0
+prepare seminar,3.2
+clean dataset,2.8
+test application,3.7
+write executive summary,2.0
+test application,2.8
+update resume,2.0
+compile bibliography,2.1
+review notes,2.8
+record demo video,1.2
+draft research proposal,6.0
+make presentation,3.3
+record demo video,2.5
+write unit tests,3.1
+practice interview,2.7
+train ML model,5.1
+perform code review,3.3
+complete thesis,11.9
+create infographic,2.3
+record presentation,1.1
+clean dataset,1.7
+host team meeting,1.7
+draft research proposal,4.3
+analyze results,3.6
+work on literature review,6.5
+code final project,8.6
+write unit tests,1.9
+record presentation,2.2
+write unit tests,1.7
+train ML model,5.0
+create wireframes,2.6
+create infographic,3.0
+train ML model,5.7
+write report,5.6
+project documentation,4.9
+study data structures,4.9
+write executive summary,2.3
+prepare viva questions,2.5
+update resume,1.0
+prepare viva questions,3.8
+create wireframes,2.2
+draft research proposal,6.3
+project documentation,6.3
+debug code,2.4
+set up environment,1.0
+attend workshop,2.7
+practice interview,2.7
+compile bibliography,1.9
+revise for test,2.4
+update resume,1.6
+clean dataset,1.6
+test application,3.1
+design poster,3.5
+work on literature review,6.5
+write blog post,1.2
+write executive summary,1.3
+design poster,1.2
+work on literature review,6.9
+perform code review,1.4
+perform code review,2.1
+draft research proposal,6.2
+make presentation,3.8
+complete thesis,12.0
+debug code,1.8
+write executive summary,1.2
+conduct survey,3.1
+complete thesis,12.7
+write report,7.0
+prepare seminar,4.7
+plan project roadmap,3.9
+study data structures,3.5
+compile bibliography,3.3
+write report,5.1
+record demo video,2.5
+clean dataset,2.2
+study data structures,3.5
+prepare viva questions,3.3
+draft research proposal,6.0
+write report,5.7
+read research paper,2.0
+update resume,1.0
+edit thesis,7.8
+compile bibliography,2.1
+create infographic,2.7
+review notes,2.6
+project documentation,5.7
+code final project,8.2
+prepare for exam,4.1
+read research paper,2.2
+practice interview,4.1
+revise for test,2.0
+analyze results,4.8
+clean dataset,2.6
+code final project,7.9
+plan project roadmap,4.4
+study data structures,4.6
+design poster,1.1
+compile bibliography,2.0
+create wireframes,2.1
+conduct survey,2.6
+complete thesis,13.2
+draft research proposal,6.4
+update resume,1.1
+code final project,7.7
+code final project,8.1
+set up environment,1.0
+study data structures,3.7
+write unit tests,2.1
+edit thesis,6.4
+write report,5.6
+write executive summary,2.7
+plan project roadmap,3.4
+work on literature review,5.5
+update resume,1.0
+train ML model,5.6
+write report,5.2
+optimize code,4.5
+prepare for exam,3.2
+conduct survey,4.4
+record presentation,1.1
+create infographic,3.8
+brainstorm ideas,3.0
+project documentation,4.7
+edit thesis,8.2
+perform code review,1.9
+draft research proposal,5.2
+build prototype,10.0
+write blog post,3.3
+analyze results,4.4

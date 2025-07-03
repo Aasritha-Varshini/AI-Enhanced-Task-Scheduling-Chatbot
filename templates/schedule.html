@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Optimized Schedule</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="user-info">
+                <img src="{{ user.picture }}" alt="Profile Picture" class="profile-pic">
+                <span>{{ user.name }}</span>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            </div>
+        </div>
+        <h2>Your Optimized Schedule</h2>
+        <ul>
+            {% for item in schedule %}
+                <li>
+                    <strong>{{ item.task }}</strong>: {{ item.start }} - {{ item.end }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="topbar">
+        <div class="profile-dropdown">
+            <button class="profile-btn">{{ user.name[0]|upper }}</button>
+            <div class="dropdown-content">
+                <a href="/logout">Logout</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome, {{ user.name }}</h1>
+        <h2>Task Scheduler Chatbot</h2>
+
+        <button id="connect-calendar">Connect Google Calendar</button>
+
+        <div id="events-container">
+            <table id="events-table" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>

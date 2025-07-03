@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+client_secret.json
+previous_tasks.json
+*.db
+instance/
+.vscode/
+*.log
+*.sqlite3
